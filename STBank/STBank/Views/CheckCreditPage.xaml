@@ -7,7 +7,7 @@
              x:Class="STBank.Views.CheckCreditPage">
     <StackLayout Margin="10" Spacing="15">
         <Label Text="Evaluar" FontSize="24" HorizontalOptions="Center"></Label>
-        <Entry Placeholder="Dni" Text="{Binding DNI}"></Entry>
+        <Entry Placeholder="Dni" Text="{Binding Dni}"></Entry>
         <Entry Placeholder="Monto" Keyboard="Numeric" Text="{Binding Monto}"></Entry>
         <Label FontSize="20" Text="Tipo de Credito"
                HorizontalOptions="Center"></Label>
